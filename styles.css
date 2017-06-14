@@ -1,0 +1,69 @@
+*, *:before, *after {
+  box-sizing: border-box;
+}
+
+h1 {
+  grid-column-end: span 4;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80vw;
+  /*height:80vw;*/
+  margin: auto;
+
+}
+
+.random-block {
+  text-align: center;
+  width: 19vw;
+  /*height: 30vw;*/
+  font-size: 10pt;
+  padding-bottom: 30px;
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+  width: 10vw;
+  margin: auto;
+  line-height: 2;
+  font-size: 12pt;
+
+}
+
+.email {
+  text-transform: uppercase;
+  color: lightgrey;
+}
+
+.images {
+  width: 19vw;
+  height: 19vw;
+}
+
+.SSN {
+  color: transparent;
+  text-shadow: 0 0 5px rgb(50, 205, 50);
+}
+
+.street {
+  text-transform: capitalize;
+  line-height: .5;
+  padding-top: 10px;
+}
+
+.city {
+  text-transform: capitalize;
+  line-height: .5;
+}
+
+.phone {
+  padding-bottom: 10px;
+  line-height: .5;
+}
